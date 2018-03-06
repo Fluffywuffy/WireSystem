@@ -1,0 +1,209 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2018, 1:21:56 PM
+    Author     : gail
+*/
+body {
+  /* The image used */
+  background-image: url("Untitled.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#header {
+  background-color: white;
+  top: 0px;
+  width: 95%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%; }
+
+#logo {
+  padding-top: 4.5%; }
+
+#slider {
+  margin-left: 1.25%;
+  margin-right: 2%;
+  margin-top: 3%;
+  height: 400px;
+  color: white;
+  padding-bottom: 400px; }
+
+#second {
+  margin-left: 1%;
+  margin-right: 3%;
+  margin-top: 3%;
+  background-color: red; }
+
+.elem {
+  position: relative;
+  bottom: 0;
+  -webkit-transition: bottom 0.5s ease;
+  -moz-transition: bottom 0.5s ease;
+  -o-transition: bottom 0.5s ease;
+  transition: bottom 0.5s ease;
+  height: 200px; }
+
+.elem:hover {
+  bottom: 28px; }
+
+.rocket {
+  height: 0;
+  top: 220px;
+  /** this sets the start point from were the text move up **/
+  overflow: hidden;
+  transition: height 0.1s;
+  /** sets the speed to how fast the background changes **/ }
+
+.axis:hover .move-up {
+  height: 19em;
+  /** this sets the height of the text move-up and down space **/
+  transform: translate(0, -110px);
+  /** this sets how big you want the feild for this text to move up you have to change all 4  **/
+  -webkit-transform: translate(0, -110px);
+  -o-transform: translate(0, -110px);
+  -moz-transform: translate(0, -110px);
+  background-color: red;
+  height: 100%;
+  background-image: url("newFan.gif");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-style: bold; }
+
+.axis:hover .move-ups {
+  height: 19em;
+  /** this sets the height of the text move-up and down space **/
+  transform: translate(0, -110px);
+  /** this sets how big you want the feild for this text to move up you have to change all 4  **/
+  -webkit-transform: translate(0, -110px);
+  -o-transform: translate(0, -110px);
+  -moz-transform: translate(0, -110px);
+  background-image: url("hoverOneFit.gif");
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-style: bold; }
+
+.object {
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  /** this is how fast the text move up **/
+  -webkit-transition: all 0.5s ease-in-out;
+  /** Chrome & Safari **/
+  -moz-transition: all 0.5s ease-in-out;
+  /** Firefox **/
+  -o-transition: all 0.5s ease-in-out;
+  /** Opera **/ }
+
+.home {
+  color: gold;
+  /** this changes the image color **/
+  left: 35%; }
+
+.gi-3x {
+  font-size: 2em;
+  /** this is to change the size of the image  **/
+  position: relative;
+  left: 45%; }
+
+.block {
+  top: 100px;
+  position: relative; }
+
+.line {
+  border: 2px solid gray;
+  width: 100px;
+  height: 2px;
+  position: absolute;
+  left: 30%; }
+
+.elem:hover {
+  background-color: #e5e5e5;
+  height: 300px; }
+
+.onclick {
+  color: red; }
+
+.text_center {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: xx-large;
+  text-shadow: 2px 2px #ff0000; }
+
+#float_one {
+  margin-top: 1%; }
+
+#float_two {
+  margin-top: 10%; }
+
+#fTheader {
+  color: #fff;
+  font-size: xx-large;
+  text-align: center; }
+
+#float_three {
+  margin-top: 10%; }
+
+#page {
+  background-color: #fff; }
+
+#pageCenter {
+  background-color: #fff; }
+
+#pageRight {
+  background-color: #fff; }
+
+.OUT {
+  margin-top: 3%;
+  border: 2px solid #007bff;
+  text-align: center;
+  background-color: #007bff;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  left: -0px;
+  margin-bottom: 5px; }
+
+#pearTopear {
+  width: 350px; }
+
+.techHeader {
+  margin-top: 25%; }
+
+#techCam {
+  width: 350px;
+  margin-left: 60px; }
+
+#blog {
+  background-color: #fff;
+  width: 95%;
+  margin-left: 2%;
+  margin-right: 4%;
+  margin-top: 5%;
+  text-align: center; }
+
+#footer {
+  color: #fff;
+  background-color: gray;
+  width: 95%;
+  text-align: center; }
+
+#flying {
+  width: 300px;
+  margin-top: 5%; }
+
+/*# sourceMappingURL=sheet.css.map */
