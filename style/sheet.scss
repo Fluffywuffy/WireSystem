@@ -237,4 +237,26 @@ body {
     text-align: center;
 }
 
-#flying { width: 300px;  margin-top: 5%;}
+#flying { width: 300px;  margin-top: 5%; text-align: center; margin-left: 45%;}
+
+.cap {
+    border: 2px solid #000;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#feildsetTrain {
+    border: 2px solid #000; width: 303px; background-color: #fff;
+    margin-bottom: 2%;
+}
+
+.button {
+    margin-bottom: 4%;
+}

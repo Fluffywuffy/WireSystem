@@ -4,4 +4,15 @@
 "beginners as well as advanced students to augment their technical capabilities to excel in their careers. We specialize in one to one and classroom based training. ICT training can run ",
 "on customers’ premises if required. One major advantage of training with us is that our instructors have industry certifications and consult, and they are currently in the field.",
 "<h3 id='TrainingCenter'> Courses </h3>",
-"<div class='cap'>CCNA</div> "]
+"<fieldset id='feildsetTrain'><div class='cap'>CCNA</div><div class='content'>R8000 Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>",
+"<fieldset id='feildsetTrain'><div class='cap'>CCNP</div><div class='content'>R7500/module Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>",
+"<fieldset id='feildsetTrain'><div class='cap'>JNCIS</div><div class='content'>R9500 Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>",
+"<fieldset id='feildsetTrain'><div class='cap'>CISSP</div><div class='content'>R24000 Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>",
+"<fieldset id='feildsetTrain'><div class='cap'>CFOT</div><div class='content'>R6500 Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>",
+"<fieldset id='feildsetTrain'><div class='cap'>MCSE</div><div class='content'>R2500/module Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>",
+"<fieldset id='feildsetTrain'><div class='cap'>CompTIA A+</div><div class='content'>R4000 Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>",
+"<fieldset id='feildsetTrain'><div class='cap'>CompTIA Security+</div><div class='content'>R4000 Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>",
+"<fieldset id='feildsetTrain'><div class='cap'>CFOT</div><div class='content'>R6500 Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>",
+"<fieldset id='feildsetTrain'><div class='cap'>MCSE</div><div class='content'>R2500/module Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>",
+"<fieldset id='feildsetTrain'><div class='cap'>CompTIA A+</div><div class='content'>R4000 Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>",
+"<fieldset id='feildsetTrain'><div class='cap'>CompTIA Security+</div><div class='content'>R4000 Fee<hr /><br />10 days Duration <hr /><br/>Jhb Venue<hr /><br /><button class='button' >enquire</button>  </div></fieldset>"]    
