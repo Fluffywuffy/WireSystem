@@ -68,6 +68,23 @@ xmlhttp.onreadystatechange = function() {
 xmlhttp.open("GET", "JSON/Technology.json", true);
 xmlhttp.send();
 };
+
+function Projects() {
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var myArr = JSON.parse(this.responseText);
+        document.getElementById("page").innerHTML = myArr[22] + myArr[23] + myArr[24] + myArr[25];
+         document.getElementById("pageRight").innerHTML = myArr[26] ;
+         document.getElementById("pageCenter").innerHTML = myArr[2] + myArr[3] + myArr[4] + myArr[5] + myArr[6] + myArr[7] + myArr[8] + myArr[9] + myArr[10] + myArr[11] +
+                 myArr[12] + myArr[13] + myArr[14] + myArr[15] + myArr[16] + myArr[17] + myArr[18] + myArr[19] + myArr[20] + myArr[21] + myArr[22];
+         document.getElementById("headerThree").innerHTML =  myArr[1] + myArr[2];
+    }
+};
+
+xmlhttp.open("GET", "JSON/Projects.json", true);
+xmlhttp.send();
+};
 </script>
 <br /><br />
 <button onclick="pobear()">clear Get</button>
@@ -76,10 +93,12 @@ xmlhttp.send();
 
 
 <div class="container-fluid">
+    
     <div class="col-lg-12" id ="headerThree"></div>
     <div class="row" >
 <div class="col-lg-4" id="page" ></div>
 <div class="col-lg-4" id="pageCenter"></div>
+<div id="bottom" class="bottom"></div>
 <div class="col-lg-4" id="pageRight" ></div>
 
 </div>
