@@ -280,6 +280,7 @@ body {
     color: white;
     background-color: black;
     text-align: center;
+    min-height: 50px;
 }
 
 .content {
@@ -289,8 +290,9 @@ body {
 }
 
 #feildsetTrain {
-    border: 2px solid #000; width: 303px; background-color: #fff;
+    border: 2px solid #000; width: 250px; background-color: #fff;
     margin-bottom: 2%;
+    margin: 1%;
 }
 
 .button {
@@ -300,6 +302,7 @@ body {
 .MaxHeight {
        min-height: 150px;
     max-height: 151px;
+    max-width: 245px;
    
   
 }
