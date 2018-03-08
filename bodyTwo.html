@@ -26,13 +26,13 @@ xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var myArr = JSON.parse(this.responseText);
         document.getElementById("page").innerHTML = myArr[10] ;
-         document.getElementById("pageRight").innerHTML = myArr[10] ;
-         document.getElementById("pageCenter").innerHTML = myArr[10];
-         document.getElementById("headerThree").innerHTML = myArr[10];
-         document.getElementById("BottomOne").innerHTML = myArr[10];
-          document.getElementById("BottomTwo").innerHTML = myArr[10];
-         document.getElementById("BottomThree").innerHTML = myArr[10];
-         document.getElementById("BottomFour").innerHTML = myArr[10];
+         document.getElementById("pageRight").innerHTML = myArr[10] + myArr[10] + myArr[10] ;
+         document.getElementById("pageCenter").innerHTML = myArr[10] + myArr[10] + myArr[10];
+         document.getElementById("headerThree").innerHTML = myArr[10] + myArr[10] + myArr[10];
+         document.getElementById("BottomOne").innerHTML = myArr[10] + myArr[10] + myArr[10];
+          document.getElementById("BottomTwo").innerHTML = myArr[10] + myArr[10] + myArr[10];
+         document.getElementById("BottomThree").innerHTML = myArr[10] + myArr[10] + myArr[10];
+         document.getElementById("BottomFour").innerHTML = myArr[10] + myArr[10] + myArr[10];
     }
 };
 
@@ -49,10 +49,10 @@ xmlhttp.onreadystatechange = function() {
          document.getElementById("pageRight").innerHTML = myArr[10] ;
          document.getElementById("pageCenter").innerHTML = myArr[2] + myArr[3] + myArr[4] + myArr[5] + myArr[6] + myArr[7] + myArr[8] + myArr[9];
          document.getElementById("headerThree").innerHTML =  myArr[1];
-         document.getElementById("BottomOne").innerHTML = myArr[0];
-          document.getElementById("BottomTwo").innerHTML = myArr[0];
-         document.getElementById("BottomThree").innerHTML = myArr[0];
-         document.getElementById("BottomFour").innerHTML = myArr[0];
+         document.getElementById("BottomOne").innerHTML = myArr[0] + myArr[0] + myArr[0];
+          document.getElementById("BottomTwo").innerHTML = myArr[0] + myArr[0] + myArr[0];
+         document.getElementById("BottomThree").innerHTML = myArr[0] + myArr[0] + myArr[0];
+         document.getElementById("BottomFour").innerHTML = myArr[0] + myArr[0] + myArr[0];
     }
 };
 
@@ -71,10 +71,10 @@ xmlhttp.onreadystatechange = function() {
          document.getElementById("pageCenter").innerHTML = myArr[2] + myArr[3] + myArr[4] + myArr[5] + myArr[6] + myArr[7] + myArr[8] + myArr[9] + myArr[10] + myArr[11] +
                  myArr[12] + myArr[13] + myArr[14] + myArr[15] + myArr[16] + myArr[17] + myArr[18] + myArr[19] + myArr[20] + myArr[21] + myArr[22];
          document.getElementById("headerThree").innerHTML =  myArr[1];
-         document.getElementById("BottomOne").innerHTML = myArr[0];
-          document.getElementById("BottomTwo").innerHTML = myArr[0];
-         document.getElementById("BottomThree").innerHTML = myArr[0];
-         document.getElementById("BottomFour").innerHTML = myArr[0];
+         document.getElementById("BottomOne").innerHTML = myArr[0] + myArr[0] + myArr[0];
+          document.getElementById("BottomTwo").innerHTML = myArr[0] + myArr[0] + myArr[0];
+         document.getElementById("BottomThree").innerHTML = myArr[0] + myArr[0] + myArr[0];
+         document.getElementById("BottomFour").innerHTML = myArr[0] + myArr[0] + myArr[0];
     }
 };
 
@@ -89,13 +89,12 @@ xmlhttp.onreadystatechange = function() {
         var myArr = JSON.parse(this.responseText);
         document.getElementById("page").innerHTML = myArr[22] + myArr[23] + myArr[24] + myArr[25];
          document.getElementById("pageRight").innerHTML = myArr[26] ;
-         document.getElementById("pageCenter").innerHTML = myArr[2] + myArr[3] + myArr[4] + myArr[5] + myArr[6] + myArr[7] + myArr[8] + myArr[9] + myArr[10] + myArr[11] +
-                 myArr[12] + myArr[13] + myArr[14] + myArr[15] + myArr[16] + myArr[17] + myArr[18] + myArr[19] + myArr[20] + myArr[21] + myArr[22];
+         document.getElementById("pageCenter").innerHTML = myArr[2] + myArr[3];
          document.getElementById("headerThree").innerHTML =  myArr[1] + myArr[2];
-         document.getElementById("BottomOne").innerHTML = myArr[0];
-          document.getElementById("BottomTwo").innerHTML = myArr[0];
-         document.getElementById("BottomThree").innerHTML = myArr[0];
-         document.getElementById("BottomFour").innerHTML = myArr[0];
+         document.getElementById("BottomOne").innerHTML = myArr[4] + myArr[0] + myArr[0];
+          document.getElementById("BottomTwo").innerHTML = myArr[0] + myArr[0] + myArr[0];
+         document.getElementById("BottomThree").innerHTML = myArr[0] + myArr[0] + myArr[0];
+         document.getElementById("BottomFour").innerHTML = myArr[0] + myArr[0] + myArr[0];
     }
 };
 

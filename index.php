@@ -13,7 +13,7 @@ and open the template in the editor.
         </style>
     </head>
     <body>
-        <script>setTimeout(function(){window.location.href='mainPage.php'},15000);</script>
+        <script>setTimeout(function(){window.location.href='mainPage.php'},10000);</script>
         <img src="images/Index.gif" alt="" />
     </body>
 </html>

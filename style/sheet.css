@@ -97,6 +97,41 @@ body {
   color: #fff;
   font-style: bold; }
 
+.axis:hover .move-upCisco {
+  height: 19em;
+  /** this sets the height of the text move-up and down space **/
+  transform: translate(0, -110px);
+  /** this sets how big you want the feild for this text to move up you have to change all 4  **/
+  -webkit-transform: translate(0, -110px);
+  -o-transform: translate(0, -110px);
+  -moz-transform: translate(0, -110px);
+  background-image: url("cisco.png");
+  height: 50%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-style: bold; }
+
+.axis:hover .move-upMicro {
+  height: 19em;
+  /** this sets the height of the text move-up and down space **/
+  transform: translate(0, -110px);
+  /** this sets how big you want the feild for this text to move up you have to change all 4  **/
+  -webkit-transform: translate(0, -110px);
+  -o-transform: translate(0, -110px);
+  -moz-transform: translate(0, -110px);
+  background-image: url("Micrsoft.png");
+  height: 50%;
+  width: 98%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ff0000;
+  font-style: bold; }
+
 .object {
   position: absolute;
   transition: all 0.5s ease-in-out;
