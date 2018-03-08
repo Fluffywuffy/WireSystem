@@ -285,6 +285,7 @@ body {
 .content {
     text-align: center;
     margin-top: 2%;
+    
 }
 
 #feildsetTrain {
@@ -294,4 +295,11 @@ body {
 
 .button {
     margin-bottom: 4%;
+}
+
+.MaxHeight {
+       min-height: 150px;
+    max-height: 151px;
+   
+  
 }
